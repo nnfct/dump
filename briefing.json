@@ -1,0 +1,18 @@
+{
+  "enabled": false,
+  "schedule": {
+    "kind": "cron",
+    "cron": "0 8 * * *",
+    "timeZone": "Asia/Seoul"
+  },
+  "source_directory": "/home/geondev/dump/notes",
+  "briefing_rules": "/home/geondev/dump/notes/telegram-briefing.md",
+  "delivery": {
+    "channel": "telegram",
+    "chat_id": null,
+    "token_file": null
+  },
+  "execution_target": "existing_hermes_on_mac",
+  "remote_source_directory": null,
+  "status": "awaiting_document_access_on_mac"
+}
